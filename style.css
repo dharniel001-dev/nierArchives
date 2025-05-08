@@ -10,6 +10,32 @@ html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #FF0000 #121212; /* Custom scrollbar colors */
+}
+
+/* Custom scrollbar styling for WebKit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cc0000;
+}
+
+body {
+    background-color: #121212; /* Dark background for the entire page */
+    color: #ffffff; /* Default text color */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 a {
@@ -31,7 +57,7 @@ img {
 }
 
 p {
-    color: #777777; /* Ash color for text */
+    color: #cccccc; /* Light gray color for text on dark background */
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -42,7 +68,7 @@ p {
 .section-title {
     font-size: 4rem;
     font-weight: 300;
-    color: #333333; /* Darker ash color for headings */
+    color: #ffffff; /* White color for headings */
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -64,12 +90,14 @@ p {
     letter-spacing: 0.1rem;
     margin-top: 30px;
     transition: 0.3s ease;
-    transition-property: background-color, color;
+    transition-property: background-color, color, transform, box-shadow;
 }
 
 .cta:hover {
     color: white;
     background-color: #FF0000; /* Red background on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Glow effect */
 }
 
 .brand h1 {
@@ -94,7 +122,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
+    background-color: rgba(20, 20, 20, 0.9); /* Darker background for header */
     transition: 0.3s ease background-color;
 }
 
@@ -111,7 +139,7 @@ p {
 #header .nav-list ul {
     list-style: none;
     position: absolute;
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(20, 20, 20); /* Dark background for nav */
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -228,7 +256,7 @@ p {
 
 /* Hero Section */
 #hero {
-    background-image: url(./img/hero-bg.png);
+    background-image: url('https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?q=80&w=1470&auto=format&fit=crop');
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -309,7 +337,7 @@ p {
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
-    background-color: #FFFFFF; /* Pure white background */
+    background-color: #121212; /* Dark background */
 }
 
 #services .service-top {
@@ -349,7 +377,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #F5F5F5; /* Very light ash/gray for service items */
+    background-color: #1e1e1e; /* Dark gray for service items */
     opacity: 0.9;
     z-index: -1;
 }
@@ -362,13 +390,13 @@ p {
 
 #services .service-item h2 {
     font-size: 2rem;
-    color: #333333; /* Darker ash color for headings */
+    color: #ffffff; /* White color for headings */
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 #services .service-item p {
-    color: #777777; /* Ash color for text */
+    color: #cccccc; /* Light gray for text */
     text-align: left;
 }
 
@@ -380,7 +408,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
-    background-color: #FFFFFF; /* Pure white background */
+    background-color: #121212; /* Dark background */
 }
 
 #projects .projects-header h1 {
@@ -392,6 +420,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 30px; /* Added gap between project items */
 }
 
 #projects .project-item {
@@ -400,39 +429,45 @@ p {
     justify-content: center;
     flex-direction: column;
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto; /* Increased margin from 20px to 30px */
     overflow: hidden;
     border-radius: 10px;
     border: 1px solid #FF0000; /* Red border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
 }
 
 #projects .project-info {
-    padding: 30px;
+    padding: 40px; /* Increased padding from 30px to 40px */
     flex-basis: 50%;
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-color: #F5F5F5; /* Very light ash/gray for project info */
-    color: #333333; /* Darker ash color for text */
+    background-color: #1e1e1e; /* Dark gray for project info */
+    color: #ffffff; /* White color for text */
+    border-right: 1px solid #333; /* Add subtle separator */
 }
 
 #projects .project-info h1 {
     font-size: 4rem;
     font-weight: 500;
-    color: #333333; /* Darker ash color for headings */
+    color: #ffffff; /* White color for headings */
+    margin-bottom: 5px; /* Added margin bottom */
 }
 
 #projects .project-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
+    margin-bottom: 15px; /* Added margin bottom */
     color: #FF0000; /* Red color for project titles */
 }
 
 #projects .project-info p {
-    color: #777777; /* Ash color for text */
+    color: #cccccc; /* Light gray for text */
+    line-height: 2.2rem; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Added margin bottom */
 }
 
 #projects .project-img {
@@ -440,21 +475,21 @@ p {
     height: 300px;
     overflow: hidden;
     position: relative;
+    border: 2px solid #252525; /* Add a border to project images */
+    transition: all 0.3s ease; /* Added transition for hover effect */
 }
 
-#projects .project-img:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(60deg, rgba(255, 0, 0, 0.1) 0%, rgba(245, 245, 245, 0.6) 100%); /* Light red to light ash gradient */
-    opacity: 0.7;
+#projects .project-item:hover .project-img {
+    border-color: #FF0000; /* Change border color on hover */
 }
 
+/* Project image styling to ensure images are visible */
 #projects .project-img img {
-    transition: 0.3s ease transform;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #333333; /* Add a subtle border */
+    transition: 0.5s ease transform; /* Made transition slightly slower */
 }
 
 #projects .project-item:hover .project-img img {
@@ -470,7 +505,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px;
-    background-color: #FFFFFF; /* Pure white background */
+    background-color: #121212; /* Dark background */
 }
 
 #about .col-left {
@@ -487,16 +522,16 @@ p {
     font-weight: 500;
     letter-spacing: 0.2rem;
     margin-bottom: 10px;
-    color: #333333; /* Darker ash color for headings */
+    color: #ffffff; /* White color for headings */
 }
 
 #about .col-right p {
     margin-bottom: 20px;
-    color: #777777; /* Ash color for text */
+    color: #cccccc; /* Light gray for text */
 }
 
 #about .col-right .cta {
-    color: #333333; /* Darker ash color for text */
+    color: #ffffff; /* White color for text */
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem;
@@ -506,7 +541,7 @@ p {
     height: 100%;
     width: 100%;
     position: relative;
-    border: 10px solid #F5F5F5; /* Light ash border */
+    border: 10px solid #1e1e1e; /* Dark gray border */
 }
 
 #about .col-left .about-img::after {
@@ -520,6 +555,20 @@ p {
     z-index: -1;
 }
 
+.resume-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.resume-buttons .cta {
+    color: #ffffff; /* White color for text */
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
 /* End About Section */
 
 /* contact Section */
@@ -528,7 +577,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
-    background-color: #FFFFFF; /* Pure white background */
+    background-color: #121212; /* Dark background */
 }
 
 #contact .contact-items {
@@ -547,10 +596,10 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 18px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s ease box-shadow;
     border: 1px solid #FF0000; /* Red border */
-    background-color: #F5F5F5; /* Very light ash/gray */
+    background-color: #1e1e1e; /* Dark gray background */
 }
 
 #contact .contact-item:hover {
@@ -567,21 +616,21 @@ p {
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 5px;
-    color: #333333; /* Darker ash color for headings */
+    color: #ffffff; /* White color for headings */
 }
 
 #contact .contact-info h2 {
     font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
-    color: #777777; /* Ash color for text */
+    color: #cccccc; /* Light gray for text */
 }
 
 /*End contact Section */
 
 /* Footer */
 #footer {
-    background-color: #333333; /* Darker ash color for footer */
+    background-color: #121212; /* Dark background */
 }
 
 #footer .footer {
@@ -696,17 +745,14 @@ p {
     /* Project */
     #projects .project-item {
         flex-direction: row;
+        height: 400px;
+        margin: 40px 0; /* Increased margin for bigger screens */
+        width: 100%;
+        border-radius: 10px; /* Keep border radius for larger screens */
     }
 
     #projects .project-item:nth-child(even) {
         flex-direction: row-reverse;
-    }
-
-    #projects .project-item {
-        height: 400px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
     }
 
     #projects .all-projects .project-info {
@@ -717,11 +763,21 @@ p {
         height: 100%;
     }
 
+    #projects .project-item:nth-child(even) .project-info {
+        border-right: none;
+        border-left: 1px solid #333; /* Add separator to the right side for reversed items */
+    }
+
     /* End Project */
 
     /* About */
     #about .about {
         flex-direction: row;
+    }
+
+    .resume-buttons {
+        flex-direction: row;
+        gap: 20px;
     }
 
     #about .col-left {

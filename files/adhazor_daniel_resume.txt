@@ -1,0 +1,83 @@
+# ADHAZOR DANIEL
+## Front-End Developer
+
+**Contact Information:**
+- Phone: +234 8012345678
+- Email: adhazor.daniel@example.com
+- Address: Lagos, Nigeria
+- GitHub: github.com/adhazordaniel
+- LinkedIn: linkedin.com/in/adhazordaniel
+
+---
+
+## PROFESSIONAL SUMMARY
+Passionate and results-driven Front-End Developer with a strong background in creating responsive, user-friendly websites. Combines technical expertise with creative problem-solving to deliver exceptional digital experiences for businesses and individuals. Committed to continuous learning and staying up-to-date with industry trends and technologies.
+
+---
+
+## SKILLS
+- **Languages**: HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks/Libraries**: React.js, Bootstrap, Tailwind CSS
+- **Version Control**: Git, GitHub
+- **Tools**: VS Code, Chrome DevTools, Webpack
+- **Design**: Responsive Design, UI/UX Principles, Figma
+- **Performance Optimization**: Web Vitals, Lighthouse
+- **Soft Skills**: Problem-solving, Communication, Teamwork
+
+---
+
+## PROJECTS
+
+### To-Do List Application
+- Developed a modern, intuitive application for task management
+- Implemented add, delete, and completion marking functionality
+- Used HTML5, CSS3, and JavaScript with local storage
+- Focused on clean design and seamless user experience
+
+### Login and Registration System
+- Created a secure, user-friendly authentication system
+- Implemented form validation and responsive design
+- Incorporated modern security practices for user credentials
+- Designed for seamless transition between login and registration views
+
+### Calculator Application
+- Built a sleek, functional calculator with standard arithmetic operations
+- Implemented keyboard support and dark mode
+- Designed with attention to detail for optimal user experience
+- Ensured full responsiveness across all devices
+
+### Netflix Clone
+- Developed a comprehensive UI clone of the Netflix streaming platform
+- Implemented carousel navigation and video previews on hover
+- Created category-based content organization
+- Built with modern front-end technologies for optimal performance
+
+### Coffee Shop Website
+- Designed a modern, responsive website for a premium coffee establishment
+- Implemented online ordering capabilities and menu showcase
+- Created smooth animations and intuitive navigation
+- Incorporated high-quality imagery for an immersive user experience
+
+---
+
+## EDUCATION
+**Bachelor of Science in Computer Science**
+Lagos State University, Nigeria
+2018 - 2022
+
+---
+
+## CERTIFICATIONS
+- Responsive Web Design - freeCodeCamp
+- JavaScript Algorithms and Data Structures - freeCodeCamp
+- Front End Development Libraries - freeCodeCamp
+
+---
+
+## LANGUAGES
+- English (Fluent)
+- Yoruba (Native)
+
+---
+
+*References available upon request* 
