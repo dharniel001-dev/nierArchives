@@ -84,7 +84,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid #FF0000; /* Red border */
+    border: 2px solid #FFFFFF; /* Changed to white border */
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -94,10 +94,10 @@ p {
 }
 
 .cta:hover {
-    color: white;
-    background-color: #FF0000; /* Red background on hover */
+    color: #121212; /* Dark text color on hover */
+    background-color: #FFFFFF; /* White background on hover */
     transform: translateY(-3px); /* Slight lift effect */
-    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Glow effect */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3); /* White glow effect */
 }
 
 .brand h1 {
@@ -367,7 +367,7 @@ p {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    border: 1px solid #FF0000; /* Red border */
+    border: 1px solid #FFFFFF; /* Changed to white border */
 }
 
 #services .service-item::after {
@@ -432,8 +432,8 @@ p {
     margin: 30px auto; /* Increased margin from 20px to 30px */
     overflow: hidden;
     border-radius: 10px;
-    border: 1px solid #FF0000; /* Red border */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+    border: 1px solid #FFFFFF; /* Changed to white border */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15); /* White shadow for depth */
 }
 
 #projects .project-info {
@@ -480,7 +480,7 @@ p {
 }
 
 #projects .project-item:hover .project-img {
-    border-color: #FF0000; /* Change border color on hover */
+    border-color: #FFFFFF; /* Changed to white on hover */
 }
 
 /* Project image styling to ensure images are visible */
@@ -551,7 +551,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid #FF0000; /* Red border */
+    border: 7px solid #FFFFFF; /* Changed to white border */
     z-index: -1;
 }
 
@@ -598,12 +598,12 @@ p {
     flex-direction: column;
     box-shadow: 0px 0px 18px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s ease box-shadow;
-    border: 1px solid #FF0000; /* Red border */
+    border: 1px solid #FFFFFF; /* Changed to white border */
     background-color: #1e1e1e; /* Dark gray background */
 }
 
 #contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 rgba(255, 0, 0, 0.3); /* Red shadow */
+    box-shadow: 0px 0px 5px 0 rgba(255, 255, 255, 0.3); /* White shadow */
 }
 
 #contact .icon {
@@ -791,7 +791,7 @@ p {
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid #FF0000; /* Red border */
+        border: 10px solid #FFFFFF; /* Changed to white border */
     }
 
     #about .col-right {
