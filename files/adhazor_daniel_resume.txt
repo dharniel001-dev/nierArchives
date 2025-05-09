@@ -1,83 +1,39 @@
-# ADHAZOR DANIEL
-## Front-End Developer
+Daniel Adhazor
+Web Designer
+Contact Information
+Email: contact@danny-agency.com
+Phone: +2348165241774
+Portfolio: https://danny-agency.com
 
-**Contact Information:**
-- Phone: +234 8012345678
-- Email: adhazor.daniel@example.com
-- Address: Lagos, Nigeria
-- GitHub: github.com/adhazordaniel
-- LinkedIn: linkedin.com/in/adhazordaniel
+Professional Summary
+I am a passionate and detail-oriented web designer with three years of experience in creating
+visually appealing and user-friendly websites. Specializing in UI/UX, Shopify, and Wix design, I have
+successfully built and enhanced digital experiences for various clients. With a strong foundation in
+HTML and CSS, I blend creativity with technical skills to craft engaging websites that align with
+brand identities and user needs. I am committed to delivering high-quality designs that drive
+conversions and improve user engagement. My work on platforms like Freelancer.com and Upwork
+has equipped me with the ability to manage projects efficiently and collaborate with diverse clients.
 
----
+Skills
+- UI/UX Design
+- Shopify Design
+- Wix Design
+- Basic HTML & CSS
 
-## PROFESSIONAL SUMMARY
-Passionate and results-driven Front-End Developer with a strong background in creating responsive, user-friendly websites. Combines technical expertise with creative problem-solving to deliver exceptional digital experiences for businesses and individuals. Committed to continuous learning and staying up-to-date with industry trends and technologies.
+Work Experience
+Web Designer | Freelancer.com & Upwork
+Duration: 2 Years
 
----
+Education
+BSc Computer Science | Thomas Adewumi University
+Duration: 2021 - 2024
 
-## SKILLS
-- **Languages**: HTML5, CSS3, JavaScript (ES6+)
-- **Frameworks/Libraries**: React.js, Bootstrap, Tailwind CSS
-- **Version Control**: Git, GitHub
-- **Tools**: VS Code, Chrome DevTools, Webpack
-- **Design**: Responsive Design, UI/UX Principles, Figma
-- **Performance Optimization**: Web Vitals, Lighthouse
-- **Soft Skills**: Problem-solving, Communication, Teamwork
-
----
-
-## PROJECTS
-
-### To-Do List Application
-- Developed a modern, intuitive application for task management
-- Implemented add, delete, and completion marking functionality
-- Used HTML5, CSS3, and JavaScript with local storage
-- Focused on clean design and seamless user experience
-
-### Login and Registration System
-- Created a secure, user-friendly authentication system
-- Implemented form validation and responsive design
-- Incorporated modern security practices for user credentials
-- Designed for seamless transition between login and registration views
-
-### Calculator Application
-- Built a sleek, functional calculator with standard arithmetic operations
-- Implemented keyboard support and dark mode
-- Designed with attention to detail for optimal user experience
-- Ensured full responsiveness across all devices
-
-### Netflix Clone
-- Developed a comprehensive UI clone of the Netflix streaming platform
-- Implemented carousel navigation and video previews on hover
-- Created category-based content organization
-- Built with modern front-end technologies for optimal performance
-
-### Coffee Shop Website
-- Designed a modern, responsive website for a premium coffee establishment
-- Implemented online ordering capabilities and menu showcase
-- Created smooth animations and intuitive navigation
-- Incorporated high-quality imagery for an immersive user experience
-
----
-
-## EDUCATION
-**Bachelor of Science in Computer Science**
-Lagos State University, Nigeria
-2018 - 2022
-
----
-
-## CERTIFICATIONS
-- Responsive Web Design - freeCodeCamp
-- JavaScript Algorithms and Data Structures - freeCodeCamp
-- Front End Development Libraries - freeCodeCamp
-
----
-
-## LANGUAGES
+Languages Spoken
 - English (Fluent)
-- Yoruba (Native)
+- French (Fluent)
+- German (Conversational)
 
----
-
-*References available upon request* 
+Notable Projects
+- Supreme Beauty: https://supremebeauty.com/
+- Chaos Theory: https://www.peaceinchaos.in/
+- Heat Culture (In Construction): https://www.heatculture.in
